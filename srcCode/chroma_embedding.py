@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv, find_dotenv
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_community.document_loaders import UnstructuredMarkdownLoader
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 
 # 读取本地/项目的环境变量。
